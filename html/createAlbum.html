@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ADD Album</title>
+</head>
+
+<body>
+
+  <div class="modal fade right" id="albumModalPreview" tabindex="-1" role="dialog"
+    aria-labelledby="albumModalPreviewLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div id="createAlbumBackground" class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title title-form" id="albumModalPreviewLabel">Add new Album</h5>
+          <button type="button" id="close" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="album_form" name="album_form" method="POST">
+
+            <div id="name-group" class="form-group">
+              <label for="name">Album Name</label>
+              <input type="text" class="form-control" name="album_name" id="album_name"
+                placeholder="Enter the Album Name here" required>
+            </div>
+
+
+            <div id="name-group" class="form-group">
+              <label for="type">Album Type</label>
+              <select class="custom-select" id="album_type" required>
+                <option selected disabled="disabled">Please select people or nature</option>
+                <option value="People">People</option>
+                <option value="Nature">Nature</option>
+              </select>
+            </div>
+
+            <div class="modal-footer">
+              <button type="submit" id="confirm" class="btn btn-success">Submit<span
+                  class="fa fa-arrow-right"></span></button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

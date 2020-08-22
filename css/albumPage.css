@@ -1,0 +1,133 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#error-space,#no-picture {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    font-size: 500%;
+    color: whitesmoke;
+}
+
+#no-picture{
+    font-size: 300%;
+    color: black;
+}
+
+#title {
+    font-size: 400%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+table, th, td {
+    margin: auto;
+    border: 1px solid whitesmoke;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 110%;
+}
+
+th, td {
+    text-align: center;
+}
+
+.rowType, .rowName {
+    width: 25%;
+}
+
+#createAlbum {
+    margin-top: 2%;
+    text-align: center;
+}
+
+#editBtm {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonDesign {
+    width: 30%;
+    font-size: 80%;
+}
+
+.buttonDesignCreate {
+    width: 20%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 150%;
+}
+
+.modal-title {
+    margin-top: 3%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 300%;
+}
+
+.modal, .fade, .right {
+    padding-top: 5%;
+}
+
+.title-form {
+    width: 70%;
+    margin: auto;
+}
+
+.modal-body {
+    width: 80%;
+    margin: auto;
+}
+
+#confirm {
+    margin-bottom: 3%;
+}
+
+#caruselSize{
+    margin: auto;
+    width: 100%;
+}
+
+img{
+    height: 500px;
+    border-radius: 20px;
+}
+
+.title-space {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 110%;
+    padding: 20px;
+    border-radius: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+#pictureModal {
+    padding-top: 2%;
+}
+
+#pictureViewBackground, #createAlbumBackground, #addPictureBackground{
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+
+}
